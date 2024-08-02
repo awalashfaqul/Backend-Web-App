@@ -68,7 +68,7 @@ BsWebApp/
    dotnet run
    ```
 
-   The application will be available at `https://localhost:5001` (or the URL specified in your launch settings).
+   The application should be available at `https://localhost:5162` (or the URL specified in your launch settings).
 
 ## API Endpoints
 
