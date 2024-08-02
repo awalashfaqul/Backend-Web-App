@@ -116,5 +116,3 @@ For any questions or feedback, please contact:
 - **Email**: [ashfaq.awal@gmail.com]
 
 ---
-
-Feel free to customize the placeholders with your actual details and add any additional information relevant to your project.
