@@ -6,14 +6,7 @@
 
 **BsWebApp** is a sample ASP.NET Core 6.0 application demonstrating a user and address management system. The application includes features for creating, reading, updating, and deleting addresses associated with users, and it uses Entity Framework Core for data access.
 
-This project follows the principles of Test-Driven Development (TDD) and includes an in-memory database for testing purposes. It also showcases basic CRUD operations through a RESTful API.
-
-## Features
-
-- **User Management**: Manage user information.
-- **Address Management**: Each user can have multiple addresses.
-- **CRUD Operations**: Create, Read, Update, and Delete addresses associated with users.
-- **Testing**: Includes unit tests for repository methods using xUnit.
+This project follows the principles of Test-Driven Development (TDD) and includes an in-memory database for testing purposes. It has basic CRUD operations through a REST-ful API.
 
 ## Project Structure
 
