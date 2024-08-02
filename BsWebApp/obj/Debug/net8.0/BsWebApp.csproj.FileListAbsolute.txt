@@ -444,3 +444,4 @@
 /Users/ashfaqul/Desktop/Resume/FullStack Developer - PHP- BookSpot/backend-web-app/BsWebApp/obj/Debug/net8.0/BsWebApp.pdb
 /Users/ashfaqul/Desktop/Resume/FullStack Developer - PHP- BookSpot/backend-web-app/BsWebApp/obj/Debug/net8.0/BsWebApp.genruntimeconfig.cache
 /Users/ashfaqul/Desktop/Resume/FullStack Developer - PHP- BookSpot/backend-web-app/BsWebApp/obj/Debug/net8.0/ref/BsWebApp.dll
+/Users/ashfaqul/Desktop/Resume/FullStack Developer - PHP- BookSpot/backend-web-app/BsWebApp/obj/Debug/net8.0/BsWebApp.sourcelink.json
