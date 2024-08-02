@@ -68,7 +68,9 @@ BsWebApp/
    dotnet run
    ```
 
-   The application should be available at `https://localhost:5162` (or the URL specified in your launch settings).
+   The application should be available at `https://localhost:5162` (or the URL specified in launch settings). Or run the program and write the following link in the default browser:
+
+   `https://localhost:5162/swagger`
 
 ## API Endpoints
 
