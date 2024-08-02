@@ -40,7 +40,7 @@ BsWebApp/
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/awalashfaqul/BsWebApp.git
+   git clone https://github.com/awalashfaqul/backend-web-app.git
    cd BsWebApp
    ```
 
