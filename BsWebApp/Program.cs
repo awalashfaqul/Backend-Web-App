@@ -4,6 +4,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.EntityFrameworkCore; 
 using BsWebApp.Data; 
 using BsWebApp.Repositories; 
+using Microsoft.OpenApi.Models;
 
 /* Initializing a new instance of WebApplicationBuilder with the provided arguments */
 var builder = WebApplication.CreateBuilder(args); 
@@ -20,15 +21,39 @@ builder.Services.AddScoped<UserRepo>();
 /* Adding support for controllers to handle HTTP requests */
 builder.Services.AddControllers(); 
 
+// Add Swagger services
+builder.Services.AddSwaggerGen(c =>
+{
+    c.SwaggerDoc("v1", new OpenApiInfo { Title = "BsWebApp API", Version = "v1" });
+});
+
 /* Building the WebApplication instance from the builder */
 var app = builder.Build(); 
 
 /* Configure the HTTP request pipeline.
 Checking if the application is running in the development environment */
-if (app.Environment.IsDevelopment()) 
+// if (app.Environment.IsDevelopment()) 
+// {
+//     app.UseSwagger();
+//     app.UseSwaggerUI();
+//     /* Enabling developer exception page to display detailed error information */
+//     app.UseDeveloperExceptionPage(); 
+//     }
+
+// Configure the HTTP request pipeline.
+if (app.Environment.IsDevelopment())
 {
     /* Enabling developer exception page to display detailed error information */
-    app.UseDeveloperExceptionPage(); 
+    app.UseDeveloperExceptionPage();
+
+    // Enable middleware to serve generated Swagger as a JSON endpoint.
+    app.UseSwagger();
+
+    // Enable middleware to serve Swagger UI.
+    app.UseSwaggerUI(c =>
+    {
+        c.SwaggerEndpoint("/swagger/v1/swagger.json", "BsWebApp API v1");
+    });
 }
 
 /* Enabling routing middleware to route requests to endpoints */
@@ -36,6 +61,8 @@ app.UseRouting();
 
 /* Adding authorization middleware to the request pipeline */
 app.UseAuthorization(); 
+
+app.UseHttpsRedirection(); // Ensure HTTPS redirection is in place
 
 /* Mapping controller endpoints to handle incoming requests */
 app.MapControllers(); 
