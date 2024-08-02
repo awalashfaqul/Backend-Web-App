@@ -1,0 +1,7 @@
+/Users/ashfaqul/Desktop/Resume/FullStack Developer - PHP- BookSpot/backend web app/BsWebApp/obj/Debug/net7.0/BsWebApp.csproj.AssemblyReference.cache
+/Users/ashfaqul/Desktop/Resume/FullStack Developer - PHP- BookSpot/backend web app/BsWebApp/obj/Debug/net7.0/BsWebApp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ashfaqul/Desktop/Resume/FullStack Developer - PHP- BookSpot/backend web app/BsWebApp/obj/Debug/net7.0/BsWebApp.AssemblyInfoInputs.cache
+/Users/ashfaqul/Desktop/Resume/FullStack Developer - PHP- BookSpot/backend web app/BsWebApp/obj/Debug/net7.0/BsWebApp.AssemblyInfo.cs
+/Users/ashfaqul/Desktop/Resume/FullStack Developer - PHP- BookSpot/backend web app/BsWebApp/obj/Debug/net7.0/BsWebApp.csproj.CoreCompileInputs.cache
+/Users/ashfaqul/Desktop/Resume/FullStack Developer - PHP- BookSpot/backend web app/BsWebApp/obj/Debug/net7.0/BsWebApp.MvcApplicationPartsAssemblyInfo.cs
+/Users/ashfaqul/Desktop/Resume/FullStack Developer - PHP- BookSpot/backend web app/BsWebApp/obj/Debug/net7.0/BsWebApp.MvcApplicationPartsAssemblyInfo.cache
