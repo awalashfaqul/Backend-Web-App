@@ -32,15 +32,6 @@ var app = builder.Build();
 
 /* Configure the HTTP request pipeline.
 Checking if the application is running in the development environment */
-// if (app.Environment.IsDevelopment()) 
-// {
-//     app.UseSwagger();
-//     app.UseSwaggerUI();
-//     /* Enabling developer exception page to display detailed error information */
-//     app.UseDeveloperExceptionPage(); 
-//     }
-
-// Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     /* Enabling developer exception page to display detailed error information */
